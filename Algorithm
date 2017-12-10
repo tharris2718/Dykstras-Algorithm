@@ -16,6 +16,5 @@ string Dykstras_Algorithm(Student s){
     
     return "Your parents are \"rich\" so enjoy your student loans...you'll need them just to make ends meet!"
   }
-  
   //end of Dykstra's Algorithm
 }

@@ -1,0 +1,21 @@
+//Student objects have params Expected Parent Contribution (EPC), and Actual Parent Contribution (APC)
+
+string Dykstras_Algorithm(Student s){
+  if(s.EPC >= $30000){
+    //APC is greater than $20,000
+    return "Congratulations, you don't have to go into debt to pay your rent...because your parents can just pay for it.";
+  }
+  
+  else if(s.EPC == $0){
+    return "Congratulations, you have no rent to pay because your parents can't pay...enjoy your 100% discount!";
+  }
+  
+  else{
+    //this is for middle class students...may God have mercy on their soul
+    //EPC is between $0 and $30,000...APC is still $0 though
+    
+    return "Your parents are \"rich\" so enjoy your student loans...you'll need them just to make ends meet!"
+  }
+  
+  //end of Dykstra's Algorithm
+}
